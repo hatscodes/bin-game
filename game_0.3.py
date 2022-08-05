@@ -4,9 +4,9 @@ game = Tk()
 game.geometry('500x400')
 game.title("bin game")
 
+title = Label(game, text="bin game")
+title.pack()
 
-
-#canvas = Canvas(game, width = 100, height = 100)
-#canvas.create_text(Text = "works")
-
+button = Button(text="yes")
+button.pack()
 game.mainloop()
